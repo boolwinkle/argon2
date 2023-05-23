@@ -1,4 +1,4 @@
-module argon2
+module github.com/boolwinkle/argon2
 
 go 1.18
 
