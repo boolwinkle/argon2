@@ -2,7 +2,7 @@
 // Use of this source code is governed by a license that can be
 // found in the LICENSE file.
 
-package argon2
+package argon2AMD64
 
 func init() {
 	useSSE4 = supportsSSE4()
