@@ -50,7 +50,7 @@ func processBlockSSE(out, in1, in2 *block, xor bool) {
 	}
 }
 
-func processBlock(out, in1, in2 *block) {
+func processBlockAMD64(out, in1, in2 *block) {
 	processBlockSSE(out, in1, in2, false)
 }
 
